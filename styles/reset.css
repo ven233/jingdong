@@ -1,0 +1,31 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+*{
+    /* 让所有的元素触发怪异盒模型 */
+    
+}
+
+ul,ol,li{
+    list-style:none;
+}
+a,u{
+    text-decoration: none;
+}
+b,strong{
+    font-weight: normal;
+}
+em,i{
+    font-style:normal;
+}
+img{
+    border:0;
+    display:block;
+    /*清除图片下面的大于3px的间距*/
+}
+input{
+    outline:none;
+    display:block;
+}
